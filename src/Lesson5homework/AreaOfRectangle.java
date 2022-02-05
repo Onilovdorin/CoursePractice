@@ -20,6 +20,8 @@ public class AreaOfRectangle {
 
         if (area1 > area2) {
             System.out.println("The first rectangle has a greater area!");
+        } else if (area1 == area2) {
+            System.out.println("The areas are equal!");
         } else {
             System.out.println("The second rectangle has a greater area!");
         }
