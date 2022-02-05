@@ -2,7 +2,7 @@ package Lesson5homework;
 
 import java.util.Scanner;
 
-public class oddEvenNumber {
+public class OddEvenNumber {
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
         System.out.println("Please insert the number : ");
