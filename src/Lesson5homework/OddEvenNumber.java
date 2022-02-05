@@ -9,9 +9,10 @@ public class OddEvenNumber {
         int inputNumber = keyboard.nextInt();
 
         if (inputNumber % 2 == 0) {
-            System.out.println("The number " + inputNumber + "is EVEN");
+            System.out.println("The number " + inputNumber + " is EVEN");
         } else {
-            System.out.println("The number " + inputNumber + "is ODD");
+            System.out.println("The number " + inputNumber + " is ODD");
         }
+        keyboard.close();
     }
 }

@@ -25,8 +25,7 @@ public class AreaOfRectangle {
         } else {
             System.out.println("The second rectangle has a greater area!");
         }
-
-
+        scanner.close();
     }
 }
 
