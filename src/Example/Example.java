@@ -1,3 +1,5 @@
+package Example;
+
 public class Example {
     String testvalue;
 

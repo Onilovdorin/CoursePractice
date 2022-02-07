@@ -1,6 +1,5 @@
-package Lesson4homework;
+package lesson4homework;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class MinutesConverter {

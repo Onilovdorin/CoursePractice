@@ -1,4 +1,4 @@
-package Lesson6homework;
+package lesson6homework;
 
 public class PrintNumbers {
     public static void main(String[] args) {
