@@ -17,5 +17,8 @@ public class Thermometer {
         } else {
             System.out.println("Porridge is just right");
         }
+
+        scanner.close();
+
     }
 }

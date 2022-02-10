@@ -7,6 +7,7 @@ public class AreaOfRectangle {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the width of the first rectangle:");
+
         double latimeDreptunghi1 = scanner.nextDouble();
         System.out.println("Enter the length of the first rectangle:");
         double lungimeDreptunghi1 = scanner.nextDouble();
