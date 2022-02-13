@@ -3,7 +3,7 @@ package lesson8.homework;
 public class MaxMinArray {
     public static void main(String[] args) {
 
-        int intArr[] = {-9, -22, -6, -10, -18, -33, -45, -4, -7};
+        int intArr[] = {9, 22, -6, 10, -18, 33, 45, 4, 7};
 
         int maxValue = 0;
         int minValue = 0;
