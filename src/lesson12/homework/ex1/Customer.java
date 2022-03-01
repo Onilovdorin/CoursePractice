@@ -1,4 +1,4 @@
-package lesson12homework.ex1;
+package lesson12.homework.ex1;
 
 public class Customer {
     private final double minCost = 2.0;

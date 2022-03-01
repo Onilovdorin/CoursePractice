@@ -1,4 +1,4 @@
-package lesson12homework.ex2;
+package lesson12.homework.ex2;
 
 public class Main {
 
