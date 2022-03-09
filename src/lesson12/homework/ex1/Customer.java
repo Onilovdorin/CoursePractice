@@ -32,10 +32,10 @@ public class Customer {
     }
 
     public static double calculateTotalProfit(Customer[] clients) {
-        double sum = 0;
+        double totalProfit = 0;
         for (Customer client : clients) {
-            sum += client.clientCharge;
+            totalProfit += client.clientCharge;
         }
-        return sum;
+        return totalProfit;
     }
 }

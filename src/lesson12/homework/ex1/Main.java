@@ -2,6 +2,7 @@ package lesson12.homework.ex1;
 
 import java.util.Scanner;
 
+
 public class Main {
     private static Scanner scanner = new Scanner(System.in);
 
@@ -12,7 +13,7 @@ public class Main {
         getAction(customer2);
         scanner.close();
         Customer[] clients = {customer1, customer2};
-        System.out.println("Total profit:" + Customer.calculateTotalProfit(clients));
+        System.out.println("Total profit: " + Customer.calculateTotalProfit(clients));
     }
 
     private static void getAction(Customer client) {
