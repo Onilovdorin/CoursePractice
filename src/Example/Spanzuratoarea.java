@@ -12,7 +12,7 @@ public class Spanzuratoarea {
         Scanner scanner = new Scanner(System.in);
         Random generator = new Random();
 
-        ArrayList<String> cuvinte = new ArrayList<>(Arrays.asList("tekwill", "academy", "java", "programator", "incepator"));
+        ArrayList<String> cuvinte = new ArrayList<>(Arrays.asList("ANA-MINOIU","VERONICA-PORUBIN","DENIS-CUCIUC","ALEXANDRU-CULICOV","DORIN-ONILOV","DUMITRU-MIHAES","ANDREI-BOLUN","VICTORIA-ROSCA","PARASCOVIA-EFROS","ZINAIDA-VERLAN"));
 
         String cuvint = cuvinte.get(generator.nextInt(cuvinte.size()));
         int vietiRamase = 5;
@@ -24,7 +24,7 @@ public class Spanzuratoarea {
         afiseazaCuvintul(cuvintAfisat);
 
         while (true) {
-            System.out.println("Introduce-ti o litere(vieti ramase = " + vietiRamase + ")");
+            System.out.println("Ghiceste numele. Introdu o litera (vieti ramase = " + vietiRamase + ")");
             char literaIntrodusa = scanner.next().charAt(0);
             boolean cuvintulContineLitera = false;
             for (int i = 0; i < litere.length; i++) {
@@ -37,11 +37,11 @@ public class Spanzuratoarea {
                 vietiRamase--;
             }
             if (vietiRamase <= 0) {
-                System.out.println("Ai pierdut jocul");
+                System.out.println("Ce pacat! Nu ai ghicit! ('_')");
                 break;
             }
             if (Arrays.equals(litere, cuvintAfisat)) {
-                System.out.println("Ai castigat jocul");
+                System.out.println("Felicitari! Ai ghicit! (^_^)");
                 afiseazaCuvintul(cuvintAfisat);
                 break;
             }
